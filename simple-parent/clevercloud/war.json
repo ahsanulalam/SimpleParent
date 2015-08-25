@@ -1,0 +1,14 @@
+{
+   "build": {
+      "type": "maven",
+      "target": "package"
+   },
+   "deploy": {
+      "container": "JBOSS7",
+      "war": [
+         {
+            "file": "target/simple-webapp.war"
+         }
+      ]
+   }
+}
